@@ -298,3 +298,39 @@ a {
        transform: translate3d(0, 0, 0);
      }
    }
+
+   /*  what we do */
+   .wwd-title{
+     text-align: center;
+     font-size: 2rem;
+     color: gold;
+     text-decoration: underline double yellow;
+   }
+
+   .wwd-content{
+     justify-content: space-evenly;
+     display: flex;
+     text-align: center;
+   }
+
+   .wwd-sC h2, .wwd-fC h2{
+     margin: 20px;
+     color: whitesmoke
+   }
+
+   .wwd-sC img, .wwd-fC img{
+     margin-top: 40px;
+   }
+
+   .wwd-sC:hover, .wwd-fC:hover{
+     background-color: #38cabbc5;
+   }
+
+.wwd-sC, .wwd-fC{
+     margin: 30px 0px;
+     height:50vh;
+     width:60vh;
+     align-self: center;
+     vertical-align:middle;
+     background-color: #00ffe56a;
+}

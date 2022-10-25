@@ -3,59 +3,33 @@
 .section img {
      display: none
 }
-
+ 
 @media only screen and (max-width: 1100px){
+     .wwd-sC, .wwd-fC{
+          height: 60vh
+     }
+
      .intro-button{
           position:inherit
      }
      .intro-img img {
           display: none;
      }
-}
 
-@media only screen and (max-width: 830px){
      .intro-button{
-          position:relative;
-          margin-top:10vh;
-     }
-     .intro-words h1 {
-          font-size: 1.5rem;
+          position:relative
      }
 
      .body-intro{
-          height:60vh
+          width:100%;
+          padding-top: 60px
+     }
+
+     .intro-words h1, .intro-words p {
+          width:98.5vw
      }
 }
 
-@media only screen and (max-width: 800px){
-     .fact-card{
-          display: inline-block;
-          grid-template-columns: 1fr 1fr;
-          margin: 0px;
-          margin-left: 30%;
-     
-     }
-
-     .ff img {
-          width: 30%
-     }
-
-     div.body-intro{
-          height: 60vh;
-     }
-
-     .mt{
-          margin: 0px;
-          display:block
-     }
-
-     img.mission-img{
-          margin:10px 10px 10px 10px;
-          width:20%;
-          margin: 10px;
-          height:10vh
-     }
-}
 
 @media only screen and (max-width: 1040px){
      .sec-2 {
@@ -93,6 +67,62 @@
 
      .intro-button {
           position: relative
+     }
+}
+
+@media only screen and (max-width: 830px){
+     .intro-button{
+          position:relative;
+          margin-top:10vh;
+     }
+     .intro-words h1 {
+          font-size: 1.5rem;
+     }
+
+     .body-intro{
+          height:60vh
+     }
+}
+
+@media only screen and (max-width: 800px){
+     .fact-card{
+          display: inline-block;
+          grid-template-columns: 1fr 1fr;
+          margin: 0px;
+          margin-left: 30%;
+     
+     }
+
+     .ff img {
+          width: 30%;
+     }
+
+
+
+     div.body-intro{
+          border-radius: 0px 0px 30px 30px;
+          height: 65vh;
+     }
+
+     .mission-title{
+          text-decoration: underline double gold;
+          margin-bottom: 30px;
+     }
+
+     .mt{
+          margin: 0px;
+          display:block
+     }
+
+     .intro-button{
+          margin-left: 0px;
+     }
+
+     img.mission-img{
+          margin:10px 10px 10px 10px;
+          width:20%;
+          margin: 10px;
+          height:15vh
      }
 }
 
@@ -138,14 +168,61 @@
      }
 }
 
-@media only screen and (max-width: 380px){
-    div.body-intro {
-          padding-top: 50px;
-          height:40vh
+@media only screen and (max-width: 600px){
+     .body-intro{
+          height: 70vh
+     }
+     .wwd-content{
+          display:grid;
+          grid-template-rows: 1fr 1fr;
+     }
+}
+
+@media only screen and (max-width: 470px){
+     .mt {
+          display: block
+     }
+
+     .body-intro{
+          border-radius: 0px;
+     }
+
+     .fact-title{
+          font-size: large ;
      }
 
      .intro-button{
-          margin-top: 80px;
+          padding: 5px 10px;
+          margin-top: 10vh;
+          border-radius: 3px;
+          margin-left:1vh;
+          font-size: medium;
+     }
+}
+
+@media only screen and (max-width: 400px){
+     .mt {
+          display: block
+     }
+
+     .body-intro{
+          height:200vh
+     }
+
+     .mission-img {
+          height:10px
+     }
+}
+
+@media only screen and (max-width: 380px){
+    div.body-intro {
+          padding-top: 50px;
+          height:40vh;
+          border-radius: 0px;
+     }
+
+     button.intro-button{
+          margin-top: 30px;
      }
 
      .intro-words h1 {
@@ -174,40 +251,18 @@
      }
 }
 
-
-@media only screen and (max-width: 600px){
-     .body-intro{
-          height: 70vh
-     }
-}
-@media only screen and (max-width: 470px){
-     .mt {
-          display: block
-     }
-
-     .body-intro{
-          border-radius: 0px;
-     }
-
+@media only screen and (max-width:300px){
      .fact-title{
-          font-size: large ;
+          font-size: medium;
+          padding: 0px;
+          margin: 0px;
      }
 
-     .intro-button{
-          padding: 5px 10px;
-          margin-top: 10vh;
-          border-radius: 3px;
-          margin-left:1vh;
+     .goals-title{
           font-size: medium;
      }
-}
 
-@media only screen and (max-width: 400px){
-     .mt {
-          display: block
-     }
-
-     .mission-img {
-          height:10px
+     .goal {
+          font-size: medium;
      }
 }
