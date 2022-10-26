@@ -5,6 +5,11 @@
 }
  
 @media only screen and (max-width: 1100px){
+     
+     .que{
+          width: 70vh;
+     }
+
      .wwd-sC, .wwd-fC{
           height: 60vh
      }
@@ -99,7 +104,7 @@
 
 
 
-     div.body-intro{
+     .body-intro{
           border-radius: 0px 0px 30px 30px;
           height: 65vh;
      }
@@ -127,6 +132,9 @@
 }
 
 @media only screen and (max-width: 760px) {
+     .questions{
+          height: 80vh
+     }
      .fact-cards{
           text-align: center;
      }
@@ -169,6 +177,29 @@
 }
 
 @media only screen and (max-width: 600px){
+     .foot-nav ul {
+          margin:0px;
+          padding:0px
+     }
+
+     .social-media {
+          display: block;
+
+     }
+
+     li a img {
+          margin: 0px;
+          padding:5px;
+          width: auto;
+          height: 130%
+     }
+.some {
+     display: block;
+     margin:0px;
+     padding: 0px;
+     justify-content: flex-start;
+     text-align: left;
+}
      .body-intro{
           height: 70vh
      }
@@ -179,6 +210,10 @@
 }
 
 @media only screen and (max-width: 470px){
+     .questions{
+          padding-top: 40px;
+          height: 90vh
+     }
      .mt {
           display: block
      }
@@ -201,6 +236,15 @@
 }
 
 @media only screen and (max-width: 400px){
+     .que {
+          width: 100%;
+          margin-left: 0px;
+          position: inherit
+     }
+
+     .foot {
+          /* display: none */
+     }
      .mt {
           display: block
      }
@@ -215,7 +259,11 @@
 }
 
 @media only screen and (max-width: 380px){
-    div.body-intro {
+
+     .questions{
+          height: 80vh;
+     }
+    .body-intro {
           padding-top: 50px;
           height:40vh;
           border-radius: 0px;
@@ -257,6 +305,9 @@
           padding: 0px;
           margin: 0px;
      }
+     .questions{
+          height: 100vh
+     }
 
      .goals-title{
           font-size: medium;
@@ -265,4 +316,46 @@
      .goal {
           font-size: medium;
      }
+}
+
+@media only screen and (max-width: 270px){
+     .questions title {
+          font-size: x-small;
+     }
+     .questions{
+          height:90vh;
+     }
+
+     .que h5 {
+          font-size: small;
+     }
+}
+
+
+@media only screen and (max-width: 250px){
+     .questions title {
+          font-size: x-small;
+     }
+     .questions{
+          height:90vh;
+     }
+
+     .title{
+          font-size: small;
+     } 
+
+     .que h5 {
+          font-size: small
+     }
+     .ans {
+          font-size: medium;
+     }
+}
+
+@media only screen and (max-width:240px){
+
+}
+
+.main-header {
+     display: none
 }
