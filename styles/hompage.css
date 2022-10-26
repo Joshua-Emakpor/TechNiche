@@ -5,11 +5,12 @@ a{
 }
 
 *{
+     color: white;
      margin: 0px;
 }
 
 html {
-     background-color: #32a99f;
+     background-color: #22766ffc;
 }
 .main-header{
      background-color: rgba(21, 28, 29, 0.733);
