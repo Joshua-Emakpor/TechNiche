@@ -1,0 +1,192 @@
+* {
+  margin: 0px;
+}
+
+html {
+  background-color: rgba(171, 212, 247, 0.746);
+}
+
+/* for  */
+.main-header {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.main-header .logo img {
+  width: 15%;
+}
+
+.main-header .section {
+  width: 100%;
+}
+
+.main-header .section img {
+  align-self: center;
+  width: 130%;
+  background-color: goldenrod;
+  height: 80%;
+  padding-top: 3px;
+}
+
+.main-header .section .sec-2 {
+  display: none;
+}
+
+.questions {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.questions .title {
+  font-size: 1.3rem;
+}
+
+.questions .main-questions {
+  display: flex;
+  overflow-x: scroll;
+  width: 100vw;
+  background-color: rgba(220, 220, 220, 0.397);
+  padding: 30px 0px;
+}
+
+.questions .main-questions .que {
+  background-color: rgba(128, 128, 128, 0.431);
+  margin: 2px;
+  height: 40vh;
+  align-self: baseline;
+  padding: 0px;
+  width: 100vh;
+  text-align: center;
+}
+
+.questions .main-questions .que h5 {
+  padding: 10px 0px;
+  font-size: 1.3rem;
+}
+
+.questions .main-questions .que .ans {
+  width: 70vh;
+  font-size: large;
+  padding-top: 10px;
+  color: #042e33;
+  text-align: start;
+  align-self: center;
+}
+
+.foot {
+  background-color: #113839;
+}
+
+.foot .social-media {
+  display: flex;
+  margin-top: 20px;
+}
+
+.foot .social-media li {
+  list-style-type: none;
+}
+
+.foot .social-media img {
+  width: 10vh;
+  margin: 10px;
+}
+
+.foot .foot-text .fT-1 {
+  color: whitesmoke;
+  padding: 20px 20px;
+}
+
+.foot .foot-text .ft-2 {
+  display: flex;
+  color: gray;
+}
+
+.foot .foot-text .ft-2 span {
+  text-align: center;
+  align-self: center;
+  padding-left: 10px;
+}
+
+.foot .foot-text .ft-2 img {
+  width: 12vh;
+}
+
+.foot .foot-nav ul {
+  color: whitesmoke;
+}
+
+.foot .foot-nav ul .some {
+  margin-top: 20px;
+}
+
+.foot .foot-nav ul .some li {
+  text-align: left;
+  display: block;
+  padding: 0px;
+  padding-bottom: 20px;
+}
+
+.foot .foot-nav ul .some li a {
+  color: wheat;
+}
+
+.why-not h2 {
+  padding: 20px 0px;
+}
+
+.why-not button {
+  background-color: goldenrod;
+  border: none;
+  animation: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  animation: slideInUp .6s ease-in;
+  animation-delay: .7s;
+  margin: 0px 0px 30px 30px;
+  animation-fill-mode: backwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    opacity: 0;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+    visibility: visible;
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
